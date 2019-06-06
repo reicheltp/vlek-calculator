@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VLEK Calculator</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <p class="calc-result">0</p>
+
+        <button class="calc-btn" onclick="calculator.ce()">CE</button>
+        <button class="calc-btn" onclick="calculator.c()">C</button>
+        <button class="calc-btn"><=</button>
+        <button class="calc-btn">:</button>
+
+        <button class="calc-btn" onclick="calculator.appendDigit(7)">7</button>
+        <button class="calc-btn" onclick="calculator.appendDigit(8)">8</button>
+        <button class="calc-btn" onclick="calculator.appendDigit(9)">9</button>
+        <button class="calc-btn">x</button>
+
+        <button class="calc-btn" onclick="calculator.appendDigit(4)">4</button>
+        <button class="calc-btn" onclick="calculator.appendDigit(5)">5</button>
+        <button class="calc-btn" onclick="calculator.appendDigit(6)">6</button>
+        <button class="calc-btn">-</button>
+
+        <button class="calc-btn" onclick="calculator.appendDigit(1)">1</button>
+        <button class="calc-btn" onclick="calculator.appendDigit(2)">2</button>
+        <button class="calc-btn" onclick="calculator.appendDigit(3)">3</button>
+        <button class="calc-btn" onclick="calculator.add()">+</button>
+
+        <button class="calc-btn"></button>
+        <button class="calc-btn" onclick="calculator.appendDigit(0)">0</button>
+        <button class="calc-btn"></button>
+        <button class="calc-btn" onclick="calculator.getResult()">=</button>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
